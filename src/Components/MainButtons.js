@@ -3,6 +3,7 @@ import Button from '@mui/material/Button';
 // import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box'
 import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function MainButtons() {
   return (
@@ -11,10 +12,10 @@ function MainButtons() {
 
         {/* <Stack direction="row" spacing={2}> */}
         <Box textAlign='center'>
-            <Button size="large" style={{margin: "30px 10px", width: "40%"}} variant="outlined" startIcon={<EmailIcon />}>
+            <Button size="large" style={{margin: "30px 10px", width: "35%"}} variant="outlined" href="mailto:jamescarr1018@gmail.com" startIcon={<EmailIcon />}>
                 Email
             </Button>
-            <Button size="large" style={{margin: "30px 10px", width: "40%"}} variant="outlined" component="span">
+            <Button size="large" style={{margin: "30px 10px", width: "35%"}} variant="outlined" href="https://www.linkedin.com/in/jamesalexandercarr/" endIcon={<LinkedInIcon />} >
                 LinkedIN
             </Button>
         </Box>    

@@ -5,6 +5,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import Box from '@mui/material/Box'
+import Link from '@mui/material/Link';
 
 
 function Footer() {
@@ -15,16 +16,16 @@ function Footer() {
 
         <Box textAlign='center'>
 
-        <IconButton>
-            <TwitterIcon style={{margin: "0px 8px"}} color="success" sx={{ fontSize: 40 }}  />
+        <IconButton href="https://twitter.com/thecrazyjames">
+            <TwitterIcon style={{margin: "0px 8px"}} color="success"  sx={{ fontSize: 40 }}  />
         </IconButton>
-        <IconButton>
+        <IconButton href="facebook.com" >
             <FacebookIcon style={{margin: "0px 8px"}} color="success" sx={{ fontSize: 40 }}  />
         </IconButton>
-        <IconButton>
-            <InstagramIcon style={{margin: "0px 8px"}} color="success" sx={{ fontSize: 40 }}  />
+        <IconButton href="instagram.com">
+            <InstagramIcon style={{margin: "0px 8px"}} color="success"  sx={{ fontSize: 40 }}  />
         </IconButton>
-        <IconButton>
+        <IconButton href="https://github.com/thecrazyjames">
             <GitHubIcon style={{margin: "0px 8px"}} color="success" sx={{ fontSize: 40 }}  />
         </IconButton>
         </Box>
